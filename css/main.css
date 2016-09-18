@@ -22,6 +22,10 @@ body {
   background-color: #e2e2e2;
 }
 
+section {
+  text-align: left;
+}
+
 h1, h2, p {
   margin: 0;
 }
@@ -44,23 +48,23 @@ p {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .btn-wrapper {
   padding: 1rem;
 }
 
-.btn {
+a {
   color: #fff;
   background-color: #555;
   border-radius: 4px;
   padding: 0.5em 0.75em;
   display: inline-block;
   font-size: 1.125rem;
+  text-decoration: none;
 }
 
+a:hover {
+  background-color: #000;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -88,7 +92,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -104,7 +108,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 90em){
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
